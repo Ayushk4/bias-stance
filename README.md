@@ -159,8 +159,8 @@ Optional Args:
 
 ## Trained Models
 
-| Model               | Accuracy | F1-Wtd      | F1-Macro | Batch | lr   | Epoch | Model |
-| ----------------    | -------- | ----------- | -------- | ----- | ---- | ----- | ----  |
+| Model               | Accuracy | F1-Wtd      | F1-Macro | Batch | lr   | Epoch | Model Weights |
+| ----------------    | -------- | ----------- | -------- | ----- | ---- | ----- | ------------- |
 | AET_HUM notarget    | 0.767    | 0.768       | 0.759    | 16    | 1e-5 | 2     | [Link](https://github.com/Ayushk4/bias-stance/releases/download/v0.0/wtwt_AET_HUM_notarget.pt)
 | AET_HUM target      | 0.765    | 0.767       | 0.756    | 16    | 1e-5 | 2     | [Link](https://github.com/Ayushk4/bias-stance/releases/download/v0.0/wtwt_AET_HUM_target.pt)
 | ANTM_CI notarget    | 0.786    | 0.788       | 0.745    | 16    | 1e-5 | 2     | [Link](https://github.com/Ayushk4/bias-stance/releases/download/v0.0/wtwt_ANTM_CI_notarget.pt)
