@@ -12,6 +12,10 @@ This repository contains the models and code accompanying the paper.
 
 The stance detection task aims at detecting the stance of a tweet or a text with respect to a target. These targets can be named entities or free-form sentences (claims). Though the task involves reasoning of the tweet with respect to a target, we find that it is possible to achieve high accuracy on several publicly available Twitter stance detection datasets without looking at the target sentence. Specifically, a simple tweet classification model achieved human-level performance on the WT-WT dataset and more than two-third accuracy on a variety of other datasets. We carry out an investigation into the existence of biases in such datasets to find the potential spurious correlations of sentiment-stance relations and lexical choice associated with stance category. Furthermore, we propose a new large dataset free of such biases and demonstrate its aptness on the existing stance detection systems. Our empirical findings much scope for research on stance detection and proposes several considerations for creating future stance detection datasets.
 
+![Alt text](https://raw.githubusercontent.com/Ayushk4/bias-stance/master/image/image-bias-stance.svg)
+    <img src="https://raw.githubusercontent.com/Ayushk4/bias-stance/master/image/image-bias-stance.svg">
+
+
 ## Dependencies
 
 | Dependency                  | Version | Installation Command                                                |
