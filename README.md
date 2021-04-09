@@ -1,6 +1,6 @@
 # Bias Stance
 
-_t_ WT–WT: A Dataset to Assert the Role of Target Entities for Detecting Stance
+<i>t</i>WT–WT: A Dataset to Assert the Role of Target Entities for Detecting Stance
 
 **Accepted to appear** at NAACL-HLT 2021.
 
