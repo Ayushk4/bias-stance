@@ -82,6 +82,18 @@ For each `<dataset-name>` set up up inside its respective folder `data/<dataset-
 
 ### 3. Training the models.
 
+We experimented with two models
+
+- Target Oblivious Bert
+
+![Alt text](https://github.com/Ayushk4/bias-stance/blob/master/images/target-oblivious-bert.png)
+
+- Target Aware Bert
+
+![Alt text](https://github.com/Ayushk4/bias-stance/blob/master/images/target-aware-bert.png)
+
+
+
 After following the above steps, move to the basepath for this repository - `cd bias-stance` and recreate the experiments by executing `python3 train.py [ARGS]` where `[ARGS]` are the following:
 
 Required Args:
