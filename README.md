@@ -86,11 +86,11 @@ We experimented with two models
 
 - Target Oblivious Bert
 
-![Alt text](https://github.com/Ayushk4/bias-stance/blob/master/images/target-oblivious-bert.png)
+<img src="https://github.com/Ayushk4/bias-stance/blob/master/images/target-oblivious-bert.png" alt="target-oblivious-bert" width="200"/>
 
 - Target Aware Bert
 
-![Alt text](https://github.com/Ayushk4/bias-stance/blob/master/images/target-aware-bert.png)
+<img src="https://github.com/Ayushk4/bias-stance/blob/master/images/target-aware-bert.png" alt="target-aware-bert" width="200"/>
 
 
 
