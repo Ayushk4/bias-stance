@@ -1,16 +1,18 @@
 # Bias Stance
 
-Stance Detection is not Classification: Promoting the role of Target Entities for Detecting Stance.
+tWT–WT: A Dataset to Assert the Role of Target Entities for Detecting Stance
 
-Accepted to appear at NAACL-HLT 2021.
+**Accepted to appear** at NAACL-HLT 2021.
 
 This repository contains the models and code accompanying the paper.
+
+ArXiv Link: `coming-soon`
 
 ## Overview
 
 ### Abstract
 
-The stance detection task aims at detecting the stance of a tweet or a text for a target. These targets can be named entities or free-form sentences (claims). Though the task involves reasoning of the tweet with respect to a target, we find that it is possible to achieve high accuracy on several publicly available Twitter stance detection datasets without looking at the target sentence. Specifically, a simple tweet classification model achieved human-level performance on the WTWT dataset and more than two-third accuracy on various other datasets. We investigate the existence of biases in such datasets to find the potential spurious correlations of sentiment-stance relations and lexical choice associated with the stance category. Furthermore, we propose a new large dataset free of such biases and demonstrate its aptness on the existing stance detection systems. Our empirical findings show much scope for research on the stance detection task and proposes several considerations for creating future stance detection datasets.
+The stance detection task aims at detecting the stance of a tweet or a text for a target. These targets can be named entities or free-form sentences (claims). Though the task involves reasoning of the tweet with respect to a target, we find that it is possible to achieve high accuracy on several publicly available Twitter stance detection datasets without looking at the target sentence. Specifically, a simple tweet classification model achieved human-level performance on the WT–WT dataset and more than two-third accuracy on various other datasets. We investigate the existence of biases in such datasets to find the potential spurious correlations of sentiment-stance relations and lexical choice associated with the stance category. Furthermore, we propose a new large dataset free of such biases and demonstrate its aptness on the existing stance detection systems. Our empirical findings show much scope for research on the stance detection task and proposes several considerations for creating future stance detection datasets.
 
 ![Alt text](https://github.com/Ayushk4/bias-stance/blob/master/images/image-bias-stance.jpg)
 
@@ -42,9 +44,9 @@ Following is the structure of the codebase, in case you wish to play around with
 - `README.md`: This file :slightly_smiling_face:
 - `.gitignore`: N/A
 - `data`: Directory to store all datasets
-  - `data/wtwt`: Folder for WTWT dataset
-    - `data/wtwt/README.md`: README for setting up WTWT dataset
-    - `data/wtwt/process.py`: Script to set up the WTWT dataset
+  - `data/wtwt`: Folder for WT–WT dataset
+    - `data/wtwt/README.md`: README for setting up WT–WT dataset
+    - `data/wtwt/process.py`: Script to set up the WT–WT dataset
   - `data/mt`: Folder for the MT dataset
     - `data/mt/README.md`: README for setting up MT dataset
     - `data/mt/process.py`: Script to set up the MT dataset
@@ -116,7 +118,7 @@ Optional Args:
 
 ## Results
 
-### WTWT
+### WT–WT
 
 | Model            | CVS_AET F1 | CI_ESRX F1 | ANTM_CI F1 | AET_HUM F1 | Average F1 | Weighted F1 | DIS_FOX F1 |
 | ---------------- | ---------- | ---------- | ---------- | ---------- | ---------- | ----------- | ---------- |
@@ -207,7 +209,7 @@ Please Cite our paper if you find the codebase useful:
 
 ```
 @inproceedings{kaushal2020stance,
-          title={Stance Detection is not Classification: Increasing the Role of Target Entities for Detecting Stance},
+          title={tWT–WT: A Dataset to Assert the Role of Target Entities for Detecting Stance},
           author={Kaushal, Ayush and Saha, Avirup and Ganguly, Niloy} 
           booktitle={Proceedings of the 2021 Conference of the North {A}merican Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL-HLT 2021)},
           year={2021}
