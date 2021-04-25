@@ -72,7 +72,7 @@ def readcsv(filename, delim, split):
     return dataset[1:]
 
 train_dataset = readcsv("scrapped_full/train.csv", ',', 'train')
-test_dataset = readcsv("scrapped_full/test.csv", '\t', 'test')
+test_dataset = readcsv("scrapped_full/test.csv", ',', 'test')
 
 prep_dataset = []
 
