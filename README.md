@@ -8,6 +8,8 @@ This repository contains the models and code accompanying the paper.
 
 ArXiv Link: `coming-soon`
 
+PDF Link: https://www.aclweb.org/anthology/2021.naacl-main.303.pdf
+
 ## Overview
 
 ### Abstract
